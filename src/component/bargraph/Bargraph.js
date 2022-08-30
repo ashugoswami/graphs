@@ -1,7 +1,6 @@
 import ReactEChart from "echarts-for-react";
 
-export default function BarChart({ data, type, xName, yName }) {
-  console.log("Data from graph", data);
+export default function BarChart({ data }) {
   const eChartsOption = {
     title: {
       text: "Bar Chart",
